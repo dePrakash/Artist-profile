@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/paint-palette.png" type="image/x-icon">
+    <title>Oil Paintings</title>
+    <link rel="stylesheet" href="oil-p.css">
+    <link rel="stylesheet" href="oil-media-q.css">
+    <link rel="stylesheet" href="index.html">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Devaraj</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+       </nav>
+       <nav id="hamburger-nav">
+        <div class="logo">Devaraj</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+    
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()" >Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <div>Oil Paintings</div>
+    
+        <script src="oilscript.js"></script>
+</body>
+</html>
