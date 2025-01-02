@@ -379,6 +379,9 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  background-color: rgba(163, 163, 163, 0.322);
+  /* border-width: medium; */
+  /* border: none; */
 }
 
 /* CONTACT */
